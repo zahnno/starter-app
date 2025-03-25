@@ -67,10 +67,6 @@ REACT_APP_GOOGLE_CLIENT_ID=your_google_client_id
    npm install
    ```
 3. Copy `example.env` to `.env` and fill in your credentials
-4. Start the server:
-   ```bash
-   npm run dev
-   ```
 
 ### Frontend Setup
 1. Navigate to the client directory:
@@ -82,9 +78,11 @@ REACT_APP_GOOGLE_CLIENT_ID=your_google_client_id
    npm install
    ```
 3. Copy `example.env` to `.env` and fill in your credentials
-4. Start the development server:
+
+### Start Client and Server
+1. In root of directory:
    ```bash
-   npm run dev
+   npm start
    ```
 
 ## Service Setup Guides
@@ -97,7 +95,7 @@ REACT_APP_GOOGLE_CLIENT_ID=your_google_client_id
 ### Stripe Setup
 1. Create a Stripe account
 2. Get your API keys from the Stripe Dashboard
-3. Set up webhook endpoints for your application
+3. Set up webhook endpoints for your application (subscription & invoice)
 4. Add keys to both frontend and backend `.env` files
 
 ### Google OAuth Setup
