@@ -36,6 +36,7 @@ You'll need to set up the following services and add their credentials to your `
 4. Mongodb connection string
 
 ## Setup Instructions
+```
 ATLAS_URI=your_mongodb_connection_string
 STRIPE_SECRET_KEY=your_stripe_secret_key
 STRIPE_WEBHOOK_SECRET=your_stripe_webhook_secret
@@ -44,7 +45,8 @@ GOOGLE_CLIENT_SECRET=your_google_client_secret
 AWS_ACCESS_KEY_ID=your_aws_access_key
 AWS_SECRET_ACCESS_KEY=your_aws_secret_key
 AWS_REGION=your_aws_region
-AWS_SES_FROM_EMAIL=your_verified_ses_emai
+AWS_SES_FROM_EMAIL=your_verified_ses_email
+```
 
 ### Prerequisites
 - Node.js (v16 or higher)
